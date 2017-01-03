@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not Found" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DwX-fO-DS7">
+                                <rect key="frame" x="187" y="123" width="81" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mac地址:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KIW-nq-gw2">
+                                <rect key="frame" x="105" y="194" width="72" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not Found" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PO3-u8-c9h">
+                                <rect key="frame" x="187" y="194" width="81" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H4O-0t-R9y">
+                                <rect key="frame" x="82" y="319" width="212" height="30"/>
+                                <state key="normal" title="点击获取WiFi的名称和Mac地址"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WIFI名称:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvY-Vv-rPM">
+                                <rect key="frame" x="103" y="123" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fvY-Vv-rPM" firstAttribute="centerY" secondItem="DwX-fO-DS7" secondAttribute="centerY" id="3BL-ub-LIY"/>
+                            <constraint firstItem="DwX-fO-DS7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-200" id="NCA-aq-meU"/>
+                            <constraint firstItem="H4O-0t-R9y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QWY-3m-Ngl"/>
+                            <constraint firstItem="DwX-fO-DS7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="40" id="XGg-X2-T2G"/>
+                            <constraint firstItem="H4O-0t-R9y" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="XNY-mf-6Ke"/>
+                            <constraint firstItem="DwX-fO-DS7" firstAttribute="leading" secondItem="fvY-Vv-rPM" secondAttribute="trailing" constant="10" id="ZPK-Cq-Bc5"/>
+                            <constraint firstItem="PO3-u8-c9h" firstAttribute="leading" secondItem="KIW-nq-gw2" secondAttribute="trailing" constant="10" id="a4x-PH-qAl"/>
+                            <constraint firstItem="PO3-u8-c9h" firstAttribute="centerX" secondItem="DwX-fO-DS7" secondAttribute="centerX" id="fxR-t5-Lez"/>
+                            <constraint firstItem="PO3-u8-c9h" firstAttribute="top" secondItem="DwX-fO-DS7" secondAttribute="bottom" constant="50" id="hHn-gi-6cb"/>
+                            <constraint firstItem="KIW-nq-gw2" firstAttribute="centerY" secondItem="PO3-u8-c9h" secondAttribute="centerY" id="jgB-Je-mXJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ip" destination="DwX-fO-DS7" id="Q70-v7-N7u"/>
+                        <outlet property="mac" destination="PO3-u8-c9h" id="X2h-8S-VfB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

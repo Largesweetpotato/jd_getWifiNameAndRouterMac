@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E6FD3D31E1B519800B8C0C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6FD3D21E1B519800B8C0C7 /* main.m */; };
+		0E6FD3D61E1B519800B8C0C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6FD3D51E1B519800B8C0C7 /* AppDelegate.m */; };
+		0E6FD3D91E1B519800B8C0C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6FD3D81E1B519800B8C0C7 /* ViewController.m */; };
+		0E6FD3DC1E1B519800B8C0C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FD3DA1E1B519800B8C0C7 /* Main.storyboard */; };
+		0E6FD3DE1E1B519800B8C0C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FD3DD1E1B519800B8C0C7 /* Assets.xcassets */; };
+		0E6FD3E11E1B519800B8C0C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FD3DF1E1B519800B8C0C7 /* LaunchScreen.storyboard */; };
+		0E6FD3EC1E1B519800B8C0C7 /* GetWifiNameAndRouterMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6FD3EB1E1B519800B8C0C7 /* GetWifiNameAndRouterMacTests.m */; };
+		0E6FD3F71E1B519800B8C0C7 /* GetWifiNameAndRouterMacUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6FD3F61E1B519800B8C0C7 /* GetWifiNameAndRouterMacUITests.m */; };
+		0E6FD4071E1B533E00B8C0C7 /* getWifiAndMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6FD4061E1B533E00B8C0C7 /* getWifiAndMac.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E6FD3E81E1B519800B8C0C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E6FD3C61E1B519700B8C0C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E6FD3CD1E1B519800B8C0C7;
+			remoteInfo = GetWifiNameAndRouterMac;
+		};
+		0E6FD3F31E1B519800B8C0C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E6FD3C61E1B519700B8C0C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E6FD3CD1E1B519800B8C0C7;
+			remoteInfo = GetWifiNameAndRouterMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E6FD3CE1E1B519800B8C0C7 /* GetWifiNameAndRouterMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetWifiNameAndRouterMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6FD3D21E1B519800B8C0C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E6FD3D41E1B519800B8C0C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E6FD3D51E1B519800B8C0C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E6FD3D71E1B519800B8C0C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0E6FD3D81E1B519800B8C0C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0E6FD3DB1E1B519800B8C0C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E6FD3DD1E1B519800B8C0C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E6FD3E01E1B519800B8C0C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E6FD3E21E1B519800B8C0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E6FD3E71E1B519800B8C0C7 /* GetWifiNameAndRouterMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetWifiNameAndRouterMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6FD3EB1E1B519800B8C0C7 /* GetWifiNameAndRouterMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetWifiNameAndRouterMacTests.m; sourceTree = "<group>"; };
+		0E6FD3ED1E1B519800B8C0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E6FD3F21E1B519800B8C0C7 /* GetWifiNameAndRouterMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetWifiNameAndRouterMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6FD3F61E1B519800B8C0C7 /* GetWifiNameAndRouterMacUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetWifiNameAndRouterMacUITests.m; sourceTree = "<group>"; };
+		0E6FD3F81E1B519800B8C0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E6FD4051E1B533E00B8C0C7 /* getWifiAndMac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getWifiAndMac.h; sourceTree = "<group>"; };
+		0E6FD4061E1B533E00B8C0C7 /* getWifiAndMac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getWifiAndMac.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E6FD3CB1E1B519800B8C0C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6FD3E41E1B519800B8C0C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6FD3EF1E1B519800B8C0C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E6FD3C51E1B519700B8C0C7 = {
+			isa = PBXGroup;
+			children = (
+				0E6FD3D01E1B519800B8C0C7 /* GetWifiNameAndRouterMac */,
+				0E6FD3EA1E1B519800B8C0C7 /* GetWifiNameAndRouterMacTests */,
+				0E6FD3F51E1B519800B8C0C7 /* GetWifiNameAndRouterMacUITests */,
+				0E6FD3CF1E1B519800B8C0C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E6FD3CF1E1B519800B8C0C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E6FD3CE1E1B519800B8C0C7 /* GetWifiNameAndRouterMac.app */,
+				0E6FD3E71E1B519800B8C0C7 /* GetWifiNameAndRouterMacTests.xctest */,
+				0E6FD3F21E1B519800B8C0C7 /* GetWifiNameAndRouterMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E6FD3D01E1B519800B8C0C7 /* GetWifiNameAndRouterMac */ = {
+			isa = PBXGroup;
+			children = (
+				0E6FD4041E1B533E00B8C0C7 /* WifiNameAndRouterMac */,
+				0E6FD3D41E1B519800B8C0C7 /* AppDelegate.h */,
+				0E6FD3D51E1B519800B8C0C7 /* AppDelegate.m */,
+				0E6FD3D71E1B519800B8C0C7 /* ViewController.h */,
+				0E6FD3D81E1B519800B8C0C7 /* ViewController.m */,
+				0E6FD3DA1E1B519800B8C0C7 /* Main.storyboard */,
+				0E6FD3DD1E1B519800B8C0C7 /* Assets.xcassets */,
+				0E6FD3DF1E1B519800B8C0C7 /* LaunchScreen.storyboard */,
+				0E6FD3E21E1B519800B8C0C7 /* Info.plist */,
+				0E6FD3D11E1B519800B8C0C7 /* Supporting Files */,
+			);
+			path = GetWifiNameAndRouterMac;
+			sourceTree = "<group>";
+		};
+		0E6FD3D11E1B519800B8C0C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E6FD3D21E1B519800B8C0C7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E6FD3EA1E1B519800B8C0C7 /* GetWifiNameAndRouterMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E6FD3EB1E1B519800B8C0C7 /* GetWifiNameAndRouterMacTests.m */,
+				0E6FD3ED1E1B519800B8C0C7 /* Info.plist */,
+			);
+			path = GetWifiNameAndRouterMacTests;
+			sourceTree = "<group>";
+		};
+		0E6FD3F51E1B519800B8C0C7 /* GetWifiNameAndRouterMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E6FD3F61E1B519800B8C0C7 /* GetWifiNameAndRouterMacUITests.m */,
+				0E6FD3F81E1B519800B8C0C7 /* Info.plist */,
+			);
+			path = GetWifiNameAndRouterMacUITests;
+			sourceTree = "<group>";
+		};
+		0E6FD4041E1B533E00B8C0C7 /* WifiNameAndRouterMac */ = {
+			isa = PBXGroup;
+			children = (
+				0E6FD4051E1B533E00B8C0C7 /* getWifiAndMac.h */,
+				0E6FD4061E1B533E00B8C0C7 /* getWifiAndMac.m */,
+			);
+			name = WifiNameAndRouterMac;
+			path = ../../WifiNameAndRouterMac;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E6FD3CD1E1B519800B8C0C7 /* GetWifiNameAndRouterMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6FD3FB1E1B519800B8C0C7 /* Build configuration list for PBXNativeTarget "GetWifiNameAndRouterMac" */;
+			buildPhases = (
+				0E6FD3CA1E1B519800B8C0C7 /* Sources */,
+				0E6FD3CB1E1B519800B8C0C7 /* Frameworks */,
+				0E6FD3CC1E1B519800B8C0C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetWifiNameAndRouterMac;
+			productName = GetWifiNameAndRouterMac;
+			productReference = 0E6FD3CE1E1B519800B8C0C7 /* GetWifiNameAndRouterMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E6FD3E61E1B519800B8C0C7 /* GetWifiNameAndRouterMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6FD3FE1E1B519800B8C0C7 /* Build configuration list for PBXNativeTarget "GetWifiNameAndRouterMacTests" */;
+			buildPhases = (
+				0E6FD3E31E1B519800B8C0C7 /* Sources */,
+				0E6FD3E41E1B519800B8C0C7 /* Frameworks */,
+				0E6FD3E51E1B519800B8C0C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E6FD3E91E1B519800B8C0C7 /* PBXTargetDependency */,
+			);
+			name = GetWifiNameAndRouterMacTests;
+			productName = GetWifiNameAndRouterMacTests;
+			productReference = 0E6FD3E71E1B519800B8C0C7 /* GetWifiNameAndRouterMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E6FD3F11E1B519800B8C0C7 /* GetWifiNameAndRouterMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6FD4011E1B519800B8C0C7 /* Build configuration list for PBXNativeTarget "GetWifiNameAndRouterMacUITests" */;
+			buildPhases = (
+				0E6FD3EE1E1B519800B8C0C7 /* Sources */,
+				0E6FD3EF1E1B519800B8C0C7 /* Frameworks */,
+				0E6FD3F01E1B519800B8C0C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E6FD3F41E1B519800B8C0C7 /* PBXTargetDependency */,
+			);
+			name = GetWifiNameAndRouterMacUITests;
+			productName = GetWifiNameAndRouterMacUITests;
+			productReference = 0E6FD3F21E1B519800B8C0C7 /* GetWifiNameAndRouterMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E6FD3C61E1B519700B8C0C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = WangJiadong;
+				TargetAttributes = {
+					0E6FD3CD1E1B519800B8C0C7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = BLK5ELKGJ4;
+						ProvisioningStyle = Automatic;
+					};
+					0E6FD3E61E1B519800B8C0C7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = BLK5ELKGJ4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0E6FD3CD1E1B519800B8C0C7;
+					};
+					0E6FD3F11E1B519800B8C0C7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = BLK5ELKGJ4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0E6FD3CD1E1B519800B8C0C7;
+					};
+				};
+			};
+			buildConfigurationList = 0E6FD3C91E1B519700B8C0C7 /* Build configuration list for PBXProject "GetWifiNameAndRouterMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E6FD3C51E1B519700B8C0C7;
+			productRefGroup = 0E6FD3CF1E1B519800B8C0C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E6FD3CD1E1B519800B8C0C7 /* GetWifiNameAndRouterMac */,
+				0E6FD3E61E1B519800B8C0C7 /* GetWifiNameAndRouterMacTests */,
+				0E6FD3F11E1B519800B8C0C7 /* GetWifiNameAndRouterMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E6FD3CC1E1B519800B8C0C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6FD3E11E1B519800B8C0C7 /* LaunchScreen.storyboard in Resources */,
+				0E6FD3DE1E1B519800B8C0C7 /* Assets.xcassets in Resources */,
+				0E6FD3DC1E1B519800B8C0C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6FD3E51E1B519800B8C0C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6FD3F01E1B519800B8C0C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E6FD3CA1E1B519800B8C0C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6FD3D91E1B519800B8C0C7 /* ViewController.m in Sources */,
+				0E6FD4071E1B533E00B8C0C7 /* getWifiAndMac.m in Sources */,
+				0E6FD3D61E1B519800B8C0C7 /* AppDelegate.m in Sources */,
+				0E6FD3D31E1B519800B8C0C7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6FD3E31E1B519800B8C0C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6FD3EC1E1B519800B8C0C7 /* GetWifiNameAndRouterMacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6FD3EE1E1B519800B8C0C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6FD3F71E1B519800B8C0C7 /* GetWifiNameAndRouterMacUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E6FD3E91E1B519800B8C0C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E6FD3CD1E1B519800B8C0C7 /* GetWifiNameAndRouterMac */;
+			targetProxy = 0E6FD3E81E1B519800B8C0C7 /* PBXContainerItemProxy */;
+		};
+		0E6FD3F41E1B519800B8C0C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E6FD3CD1E1B519800B8C0C7 /* GetWifiNameAndRouterMac */;
+			targetProxy = 0E6FD3F31E1B519800B8C0C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E6FD3DA1E1B519800B8C0C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E6FD3DB1E1B519800B8C0C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E6FD3DF1E1B519800B8C0C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E6FD3E01E1B519800B8C0C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E6FD3F91E1B519800B8C0C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0E6FD3FA1E1B519800B8C0C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E6FD3FC1E1B519800B8C0C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BLK5ELKGJ4;
+				INFOPLIST_FILE = GetWifiNameAndRouterMac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiadong.mac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E6FD3FD1E1B519800B8C0C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BLK5ELKGJ4;
+				INFOPLIST_FILE = GetWifiNameAndRouterMac/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiadong.mac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E6FD3FF1E1B519800B8C0C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BLK5ELKGJ4;
+				INFOPLIST_FILE = GetWifiNameAndRouterMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiadong.mac.GetWifiNameAndRouterMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetWifiNameAndRouterMac.app/GetWifiNameAndRouterMac";
+			};
+			name = Debug;
+		};
+		0E6FD4001E1B519800B8C0C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BLK5ELKGJ4;
+				INFOPLIST_FILE = GetWifiNameAndRouterMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiadong.mac.GetWifiNameAndRouterMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetWifiNameAndRouterMac.app/GetWifiNameAndRouterMac";
+			};
+			name = Release;
+		};
+		0E6FD4021E1B519800B8C0C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BLK5ELKGJ4;
+				INFOPLIST_FILE = GetWifiNameAndRouterMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiadong.mac.GetWifiNameAndRouterMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetWifiNameAndRouterMac;
+			};
+			name = Debug;
+		};
+		0E6FD4031E1B519800B8C0C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BLK5ELKGJ4;
+				INFOPLIST_FILE = GetWifiNameAndRouterMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiadong.mac.GetWifiNameAndRouterMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetWifiNameAndRouterMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E6FD3C91E1B519700B8C0C7 /* Build configuration list for PBXProject "GetWifiNameAndRouterMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6FD3F91E1B519800B8C0C7 /* Debug */,
+				0E6FD3FA1E1B519800B8C0C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E6FD3FB1E1B519800B8C0C7 /* Build configuration list for PBXNativeTarget "GetWifiNameAndRouterMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6FD3FC1E1B519800B8C0C7 /* Debug */,
+				0E6FD3FD1E1B519800B8C0C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E6FD3FE1E1B519800B8C0C7 /* Build configuration list for PBXNativeTarget "GetWifiNameAndRouterMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6FD3FF1E1B519800B8C0C7 /* Debug */,
+				0E6FD4001E1B519800B8C0C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E6FD4011E1B519800B8C0C7 /* Build configuration list for PBXNativeTarget "GetWifiNameAndRouterMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6FD4021E1B519800B8C0C7 /* Debug */,
+				0E6FD4031E1B519800B8C0C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E6FD3C61E1B519700B8C0C7 /* Project object */;
+}
